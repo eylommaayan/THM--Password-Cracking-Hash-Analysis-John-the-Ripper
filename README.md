@@ -1,8 +1,10 @@
 # THM--Password-Cracking-Hash-Analysis-John-the-Ripper
 בתרגול זה עבדתי עם הכלי John the Ripper, אחד הכלים המרכזיים בעולם הסייבר לפיצוח סיסמאות (Password Cracking). התרגול בוצע כחלק מהכשרה מעשית בתחום Penetration Testing ו־Cyber Security, ומתמקד בהבנת הדרך שבה תוקפים מצליחים לשחזר סיסמאות ממידע מוצפן – ומה ניתן ללמוד מכך גם כצד מגן.
 בשמחה.
-להלן **דוח PT מורחב, לימודי ומקצועי בעברית**, עם הסברים של **למה עושים**, **איך זה עובד**, **ומתי זה רלוונטי בעולם האמיתי**.
-מוכן לשימוש כ־**README.md ב-GitHub** או כקובץ הגשה.
+
+<img width="1421" height="339" alt="image" src="https://github.com/user-attachments/assets/b93fe669-22d9-45d9-8606-4f3d3da9d6ba" />
+
+.
 
 ---
 
@@ -64,7 +66,15 @@
 * הרצתי פיצוח באמצעות John + wordlist
 
 ### ❓ למה עושים את זה
+<img width="1870" height="875" alt="image" src="https://github.com/user-attachments/assets/9f444ee1-e6db-431c-88cc-cb9258cce56a" />
 
+🧠 איך מזהים את סוג ה-Hash?
+1️⃣ לפי אורך ה-Hash (הדרך הכי מהירה)
+אורך	דוגמה	סוג נפוץ
+32 תווים	5f4dcc3b5aa765d61d8327deb882cf99	MD5
+40 תווים	7c222fb2927d828af22f592134e8932480637c0d	SHA1
+64 תווים	e3b0c44298fc1c149afbf4c8996fb924...	SHA256
+128 תווים	ארוך מאוד	SHA512
 במקרה של פריצה למסד נתונים, הסיסמאות לא נשמרות כטקסט רגיל אלא כ־Hash.
 אם הסיסמה חלשה – ניתן לפצח אותה **אופליין**, בלי גישה למערכת.
 
